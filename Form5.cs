@@ -28,5 +28,33 @@ namespace GRUPO8_VS1
         {
             Application.Exit();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form7 funcionalidad2 = new Form7();
+            funcionalidad2.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form8 funcionalidad2 = new Form8();
+            funcionalidad2.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form9 funcionalidad2 = new Form9();
+            funcionalidad2.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form10 funcionalidad2 = new Form10();
+            funcionalidad2.Show();
+            this.Hide();
+        }
     }
 }
